@@ -21,6 +21,7 @@ python train.py --batch-size 5 --lr 0.0005 --has_gcs_branch
 ## 🚀 **Training Without Aspect Ratio Grouping:**
 ```bash
 --aspect-ratio-group-factor -1
+```
 
 ## 🚀 **Group Inference**
 ```bash
