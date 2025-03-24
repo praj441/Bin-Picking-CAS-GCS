@@ -4,11 +4,10 @@
 ---
 
 ## 📌 **Overview**  
-This repository contains the source code for our research on **bin-picking using category-agnostic segmentation**, specifically designed for scenarios with unreliable depth information.
+This repository contains the source code for our research on **bin-picking using category-agnostic segmentation**, specifically designed for scenarios with unreliable depth information. Robotic table-top grasping (bin-picking) of unknown, heterogeneous objects is challenging due to clutter and unreliable depth data, especially with commodity-grade sensors for thin or transparent objects. To address this, we propose a depth-independent CNN that co-learns category-agnostic instance segmentation, instance-wise grasp-confidence scores (GCS), and monocular depth estimation from an RGB image. The predicted depth assists in collision detection and 3D grasp pose transformation. The GCS branch helps filter graspable objects, improving efficiency by reducing unnecessary grasp planning. A custom synthetic dataset is used for training, and experiments show that our method reliably picks various unknown objects, including non-opaque and thin objects, from cluttered bins.
 
 ---
 
-## 🖼 **Framework Overview**  
 
 ### **CNN Design**
 ![CNN Architecture](data/images/cnn_design.png)
