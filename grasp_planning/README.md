@@ -1,1 +1,1 @@
-# Bin_picking_CAS_novel
+# Grasp Planning and Execution Module
