@@ -1,6 +1,6 @@
-# This directory contains the source code for **training and testing** our category-agnostic **instance segmentation model with grasp-confidence scores (GCS).**
+# This directory contains the source code for **training and testing** our category-agnostic **instance segmentation model with grasp-confidence scores (GCS).
 
-# 🏗️ **Segmentation and GCS head implementation in Mask-RCNN head**  
+# 🏗️ Segmentation and GCS head implementation in Mask-RCNN head  
 
 <p align="center">
   <img src="../data/images/segmentation_with_gcs.png" alt="Segmentation with GCS" width="600">
@@ -9,7 +9,7 @@
 
 markdown
 ## 🚀 Training with Multiple GPUs:
-bash
+``bash
 python -m torch.distributed.launch --nproc_per_node=2 --use_env train.py --batch-size 5 --world-size 2 --lr 0.005 --has_gcs_branch
 
 ## 🚀 Training with a single GPU:
