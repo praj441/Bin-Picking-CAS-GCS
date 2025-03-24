@@ -7,9 +7,9 @@
 </p>
 
 
-markdown
+
 ## 🚀 Training with Multiple GPUs:
-``bash
+```bash
 python -m torch.distributed.launch --nproc_per_node=2 --use_env train.py --batch-size 5 --world-size 2 --lr 0.005 --has_gcs_branch
 
 ## 🚀 Training with a single GPU:
