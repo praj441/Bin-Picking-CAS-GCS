@@ -1,6 +1,6 @@
 # CNN Source code 
 
-![Alt Text](data/images/segmentation_with_gcs.png)
+![Alt Text](../data/images/segmentation_with_gcs.png)
 
 
 
