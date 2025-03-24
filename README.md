@@ -31,5 +31,5 @@ Navigate to the respective folders for different modules of our work:
 ## 🚀 **Getting Started**  
 ### **🔹 Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/praj441/Bin-Picking-CAS-GCS.git
+cd Bin-Picking-CAS-GCS
