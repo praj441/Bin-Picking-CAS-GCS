@@ -1,4 +1,4 @@
-# This directory contains the source code for **training and testing** our category-agnostic **instance segmentation model with grasp-confidence scores (GCS).
+# Source code for training and testing our CNN 
 
 # 🏗️ Segmentation and GCS head implementation in Mask-RCNN head  
 
