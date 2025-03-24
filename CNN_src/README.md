@@ -1,32 +1,23 @@
-# CNN Source code 
+# 🏗️ **CNN Source Code**  
 
-![Alt Text](../data/images/segmentation_with_gcs.png)
+<p align="center">
+  <img src="../data/images/segmentation_with_gcs.png" alt="Segmentation with GCS" width="600">
+</p>
 
+This directory contains the source code for **training and testing** our category-agnostic **instance segmentation model with grasp-confidence scores (GCS).**
 
-
-# Training with multiple GPUs:
+## 🚀 Training with Multiple GPUs:
+```bash
 python -m torch.distributed.launch --nproc_per_node=2 --use_env train.py --batch-size 5 --world-size 2 --lr 0.005 --has_gcs_branch
 
-#Single GPU training
+## 🚀 Training with a single GPU:
+```bash
 python train.py --batch-size 5 --lr 0.0005 --has_gcs_branch
 
-# Config
-Check the config options in the train.py file
-Some of the important config options are:
-(1) --data_path
-(2) --train_depth_only
-(3) --train_segm_only
-(4) --min_depth_eval, --max_depth_eval
-(5) --max_depth
-(6) --output_dir
-(7) --resume
-(8) --test-only
 
-
-
-#training without aspect ratio
+## 🚀 Training Without Aspect Ratio Grouping:
+```bash
 --aspect-ratio-group-factor -1
 
-
-#for group inference
+## 🚀 Group Inference
 python inference_group.py --resume /checkpoint_path/checkpoint.pth --has_gcs_branch
