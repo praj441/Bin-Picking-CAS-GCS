@@ -8,6 +8,8 @@ This repository contains the source code for our research on **bin-picking using
 
 ---
 
+<img src="data/images/cnn_design.png" alt="CNN Design" width="500">
+<img src="data/images/grasp_planning_framework.png" alt="Grasp Planning Framework" width="500">
 
 ### **CNN Design**
 ![CNN Architecture](data/images/cnn_design.png)
