@@ -1,9 +1,9 @@
-# Source code for training and testing our CNN 
+# 🏗️ Source code for training and testing our CNN 
 
-# 🏗️ Segmentation and GCS head implementation in Mask-RCNN head  
+** Segmentation and GCS head implementation in Mask-RCNN head  **
 
 <p align="center">
-  <img src="../data/images/segmentation_with_gcs.png" alt="Segmentation with GCS" width="600">
+  <img src="../data/images/segmentation_with_gcs.png" alt="Segmentation with GCS" width="900">
 </p>
 
 
