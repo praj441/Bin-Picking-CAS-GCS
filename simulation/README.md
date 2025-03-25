@@ -15,7 +15,7 @@ python main_cas_data.py
 ```
 
 
-## 🚀 Note:
+## Note:
 Please change image_size, num_scene and other parameters in main_cas_data.py file as per the requirement.
 
 ## Batch processing for fast data generation
