@@ -4,6 +4,9 @@
 <img src="../data/images/Pybullet_screenshot.png" alt="Missing photo" width="900">
 
 
+### **A few of the samples generated with this environment**
+<img src="../data/images/samples.png" alt="Missing photo" width="900">
+
 ## 🚀 Install dependencies:
 ```bash
 pip install -r requirement.txt
