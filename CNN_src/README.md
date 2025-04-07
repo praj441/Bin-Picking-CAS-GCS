@@ -26,3 +26,8 @@ python train.py --batch-size 5 --lr 0.0005 --has_gcs_branch
 ## 🚀 **Group Inference**
 ```bash
 python inference_group.py --resume /checkpoint_path/checkpoint.pth --has_gcs_branch
+
+
+## Downloads the trained weights
+```bash
+https://drive.google.com/file/d/1WUos4exRMeDjz9_zXgVHsCkNCYoJbD8s/view?usp=sharing
